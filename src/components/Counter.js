@@ -3,7 +3,7 @@ import { useSelector, useDispatch, connect } from 'react-redux';
 
 import classes from './Counter.module.css';
 
-/* const Counter = () => {
+const Counter = () => {
   const dispatch = useDispatch();
   const counter = useSelector(state => state.counter);
 
@@ -30,9 +30,9 @@ import classes from './Counter.module.css';
   );
 }; 
 
-export default Counter;  */
+export default Counter;
 
-class Counter extends Component {
+/* class Counter extends Component {
   incrementHandler() {
     this.props.increment();
   }
@@ -74,4 +74,4 @@ const mapDispatchToProps = dispatch => {
   }
 };
 
-export default connect( mapStateToProps, mapDispatchToProps )(Counter);
+export default connect( mapStateToProps, mapDispatchToProps )(Counter);  */
